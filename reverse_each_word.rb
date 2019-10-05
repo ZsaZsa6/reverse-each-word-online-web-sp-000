@@ -7,5 +7,5 @@ def reverse_each_word(string)
      word.reverse
     new_string << array.to_s
   end
-  
+
 end
