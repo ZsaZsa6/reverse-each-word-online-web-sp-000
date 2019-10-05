@@ -9,5 +9,4 @@ def reverse_each_word(string)
     new_string << array.to_s
   end
   binding.pry
-
 end
