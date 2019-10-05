@@ -4,12 +4,12 @@ def reverse_each_word(string)
   array = []
   array << string.split
 
-  binding.pry
 
   array.each do |word|
     word.reverse
     new_string = ""
     new_string << array.join
   end
+  binding.pry
 
 end
